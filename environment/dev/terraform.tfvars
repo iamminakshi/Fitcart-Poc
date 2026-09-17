@@ -5,15 +5,15 @@ root_rg = {
   # }
   rg1 = {
     resource_group_name = "dev-nitor-rg-002"
-    location            = "East US 2"
+    location            = "East US"
   }
 
 }
 root_storage = {
   storage1 = {
     storage_account_name     = "devnitorstorage001"
-    resource_group           = "dev-nitor-rg-002"
-    location                 = "East US 2"
+    resource_group           = "rg-poc-test"
+    location                 = "East US"
     account_tier             = "Standard"
     account_replication_type = "LRS"
   }

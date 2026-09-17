@@ -6,10 +6,10 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "NitorProjectStateManagement"
-    storage_account_name = "stgnitorstatemanagement1"
-    container_name       = "nitorstatecontainer"
-    key                  = "nitorprojectstatefilenew"
+    resource_group_name  = "rg-poc"
+    storage_account_name = "sapocbackend"
+    container_name       = "conpoc"
+    key                  = "terraform.tfstate"
   }
 }
 
