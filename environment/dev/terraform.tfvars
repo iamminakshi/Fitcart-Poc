@@ -37,16 +37,7 @@ root_network = {
     }
   }
 }
-root_server = {
-  sqlserver1 = {
-    name                = "dev-nitor-server-001"
-    location            = "East US 2"
-    resource_group_name = "dev-nitor-rg-002"
-    admin_login         = "sqladmin"
-    admin_password      = "@1234devnitor"
 
-  }
-}
 root_AKS = {
   aks1 = {
     aks_name            = "dev-nitor-cluster-01"
@@ -62,12 +53,7 @@ root_AKS = {
 
   }
 }
-root_database = {
-  database1 = {
-    database_name = "dev-nitor-db-001"
-    sku_name      = "S0"
-  }
-}
+
 root_userpool = {
   userpool1 = {
     userpoolname        = "devk8usrpl01"
@@ -79,13 +65,7 @@ root_userpool = {
     resource_group_name = "dev-nitor-rg-002"
   }
 }
-root_load_balancers = {
-  lb1 = {
-    name                = "dev-l4-lb-001"
-    location            = "East US 2"
-    resource_group_name = "dev-nitor-rg-002"
-  }
-}
+
 root_acrs = {
   acr1 = {
     name                = "devnitoracr001"
